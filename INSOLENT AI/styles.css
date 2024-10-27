@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+h1,
+h2 {
+  color: #333;
+}
+.img-container {
+  text-align: center;
+  margin-top: 10px;
+}
+.img-small {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+}
+.img-medium {
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  border-radius: 5px;
+}
+.img-pequeño {
+  width: 140px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+}
+.technology-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.technology-card .card {
+  background: #f9fbfd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.technology-card img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: 150px; /* Altura fija para que todas las imágenes tengan el mismo tamaño */
+  object-fit: cover; /* Recorta la imagen para mantener la proporción */
+  border-radius: 8px; /* Esquinas redondeadas para las imágenes */
+  margin-bottom: 15px; /* Espaciado entre la imagen y el texto */
+}
